@@ -1,7 +1,7 @@
 # vott_setup  
   
 1. Node.jsおよびnpmをインストール(2019/10/05現在、nodejs:v11.15.0、npm:6.7.0が最新)[1]  
-> curl -sL https://deb.nodesource.com/setup_$(VERSION).x | sudo -E bash -  
+> curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -  
 > sudo apt-get install -y nodejs  
   
 2. VoTTをクローンし、npmを使用してセットアップ[2]  
