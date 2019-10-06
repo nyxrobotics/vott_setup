@@ -23,9 +23,17 @@ kernel:4.15.0-64-generic
 > npm install fsevents@1.2.9 --save  
 > npm i -f  
 > npm audit fix  
+
+4. ろくに動かないのでブランチをいろいろ切り替えて試す  
+tradking機能が使えるのが古いバージョンのみとの記事[5][6]を参考に、いくつか比較作業  
+- v 2.1.1 : tranking不可、頻繁にフリーズする  
+- v 1.7.2 : tracking不可  
+- v 1.0.6 : tranking可能(ただしメニューバーからはグレーアウトして使えず、ショートカットコマンドで使用する)  
   
 <参考文献>  
 [1]http://idwonder21.hatenablog.com/entry/2019/02/06/103423  
 [2]https://www.kinacon-blog.work/entry/2019/03/16/VoTT%E3%81%A7%E5%AD%A6%E7%BF%92%E7%94%A8%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B  
 [3]https://stackoverflow.com/questions/47039812/how-to-install-popper-js-with-bootstrap-4  
 [4]https://stackoverflow.com/questions/40226745/npm-warn-notsup-skipping-optional-dependency-unsupported-platform-for-fsevents  
+[5]https://qiita.com/nonbiri15/items/fdb1d2a54f8d670993bb  
+[6]https://www.nakasha.co.jp/future/ai/annotation_tool.html  
